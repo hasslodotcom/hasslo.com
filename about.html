@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+    <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<h1 class="glow">HassloDotCom</h1>
+<div class="topnav" id="myTopnav">
+  <div id="my links">
+  <a  href="./home.html" ><i class="fa fa-fw fa-home"></i>Home</a>
+  <a class="active" href="#about" ><i class="fa fa-fw fa-info"></i>About</a>
+ <button class="button"><span>Blogs </span></button>
+ <a " href="./contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+ <a href="javascript:void(0);" class="icon" onclick="myFUnction()">
+    <i class="fa fa-bars"></i>
+  </a>
+<script>
+function myFUnction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</div>
+</div>
+<!-- Load an icon library -->
+<body style="color: wheat;
+<diV class="about-content">
+<h2>About us</h2>
+</div>
+<p>hasslodotcom <span id="dots">...</span><span id="more"> is an entertainment and blogs company,<br>
+ which works to serve you with best content including trending memes, updates & gossips.<br>
+ You are definitely going to have great time with us &#128151</span></p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<div class="footer">
+  <p>@copyrights reserved</p>
+</body>
+</html>

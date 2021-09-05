@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet"href="./css/style.css">
+<style>
+#send:link, send:visited {
+  background-color: white;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#send:hover, send:active {
+  background-color: red;
+  color:white;
+}
+</style>
+</head>
+<body>
+<h1 class="glow">HassloDotCom</h1>
+<div class="topnav" id="myTopnav">
+  <div id="my links">
+  <a  href="./home.html" ><i class="fa fa-fw fa-home"></i>Home</a>
+  <a  href="./about.html" ><i class="fa fa-fw fa-info"></i>About</a>
+  <a class="active" href="#contact"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+ <a href="javascript:void(0);" class="icon" onclick="myFUnction()">
+    <i class="fa fa-bars"></i>
+  </a>
+<script>
+function myFUnction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</div>
+</div>
+<!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body style="color: wheat;
+<div class="contact-content">
+<h1>Contact Us</h1>
+<div class="address-holder">
+<p>
+HassloDotCom<br/>
+canada<br/>
+</p>
+<h4>123456</h4>
+ <a id="send" href="mailto:hasslodotcom@gmail.com"><i class="fa fa-fw fa-envelope"></i>Send email </a> 
+<h4>hasslodotcom@gmail.com</h4>
+<p>Click on the "Choose File" button to upload a file:</p>
+
+<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+</form>
+</div>
+<div class="footer">
+  <p>@copyrights reserved.</p>
+</body>
+</html>
