@@ -181,7 +181,7 @@ img {
 
 .container {
   position: relative;
-  width: 90%;
+  width: auto%;
 }
 
 .image {
@@ -204,7 +204,7 @@ img {
   left: 0;
   right: 0;
   height: auto;
-  width: 100%;
+  width: auto;
   opacity: 0;
   transition: .3s ease;
   background-color: red;
