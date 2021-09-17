@@ -3,10 +3,34 @@
  <head>
     <link rel="stylesheet" href="./css/style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ .classic-2 {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 50px;
+  background:linear-gradient(135deg,#0000 calc(50% - 0.5em),#000 0 calc(50% + 0.5em),#0000 0) right/300% 100%;
+  animation:c2 2s infinite;
+}
 
+.classic-2::before {
+  content:"Hasslo Dot Com";
+  color:#0000;
+  padding:0 5px;
+  background:linear-gradient(135deg,#000 calc(50% - 0.5em),#fff 0 calc(50% + 0.5em),#000 0);
+  -webkit-background-clip:text;
+  background-clip:text;
+  background-size:inherit;
+  background-position: inherit;
+}
+
+@keyframes c2{
+  100%{background-position: left}
+}
+
+  </style>
 </head>
 <body>
-<h1 class="glow">HassloDotCom</h1>
+<div class="classic-2"></div>
 <div class="topnav" id="myTopnav">
   <div id="my links">
   <a  href="./home.html" ><i class="fa fa-fw fa-home"></i>Home</a>
