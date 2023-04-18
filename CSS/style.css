@@ -316,4 +316,6 @@ toggle.addEventListener('colorschemechange', () => {
   border-color: #7AB0E6;
 }
 
-#mglass {margin-left: 5px;}
+#mglass {margin-left: 5px;
+   background: white;
+}
